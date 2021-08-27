@@ -7,14 +7,14 @@
     <!-- Latest compiled and minified CSS -->
     <link
       rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      href="https:/maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     />
     <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https:/ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- Popper JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https:/cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https:/maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <title>Home Page</title>
     <link rel="stylesheet" href="/static/css/main.css" />
     <link rel="stylesheet" href="/static/css/response.css" />
@@ -25,7 +25,11 @@
         <a href="./index.html" class="logo-box">
           <img src="/static/images/home/logo-page.svg" alt="" />
         </a>
+        <div class="nav-box">
+          <img src="./static/images/home/nav.svg" alt="" />
+        </div>
         <ul class="navigation flex-2">
+          <div class="close"></div>
           <li><a href="./index.html">Trang chủ</a></li>
           <li><a href="./Introduce.html">Giới thiệu</a></li>
           <li><a href="./Products.html">Sản phẩm</a></li>
@@ -38,7 +42,7 @@
     <section class="banner-home">
       <img src="/static/images/home/banner-home-1.png" alt="" />
       <div class="button">
-        <img src="/static/images/home//button_banner.svg" alt="" />
+        <img src="/static/images/home/button_banner.svg" alt="" />
         <div class="description-box">
           <div class="title-box">MÀNH LÁ DỌC</div>
           <div class="descriptions">
@@ -56,7 +60,7 @@
     <section class="introduce-home custom-padding container-box">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-6 content flex-1">
+          <div class="col-12 col-sm-12 col-lg-12 col-xl-6 content flex-1">
             <img src="/static/images/home/bg-content-intro.png" alt="" />
             <p class="title-type-1">Giới thiệu</p>
             <div class="container">
@@ -90,15 +94,16 @@
               khách hàng. Mành cầu vồng tạo không gian sống một cách tuyệt vời
               nhất
             </p>
+            <a href="/">Tìm hiểu thêm về công ty</a>
           </div>
-          <div class="col-6 image-box">
+          <div class="col-12 col-sm-12 col-lg-12 col-xl-6 image-box">
             <img src="/static/images/home/image-intro-1.png" alt="" />
           </div>
         </div>
       </div>
     </section>
 
-    <section class="products_home">
+    <section class="products-home">
       <img class="tree-1" src="/static/images/home/tree-1.png" alt="" />
       <img class="tree-2" src="/static/images/home/tree-2.png" alt="" />
       <div class="container-box">
@@ -180,7 +185,7 @@
         </div>
         <div class="container-fluid products-box">
           <div class="row">
-            <div class="col-4 product">
+            <div class="col-6 col-sm-6 col-xl-4 product">
               <div class="box">
                 <img src="/static/images/products/product-1.png" alt="" />
                 <p class="product-name">Rèm cầu vồng</p>
@@ -195,7 +200,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-4 product">
+            <div class="col-6 col-sm-6 col-xl-4 product">
               <div class="box">
                 <img src="/static/images/products/product-2.png" alt="" />
                 <p class="product-name">Rèm cầu vồng</p>
@@ -210,7 +215,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-4 product">
+            <div class="col-6 col-sm-6 col-xl-4 product">
               <div class="box">
                 <img src="/static/images/products/product-3.png" alt="" />
                 <p class="product-name">Rèm cầu vồng</p>
@@ -225,7 +230,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-4 product">
+            <div class="col-6 col-sm-6 col-xl-4 product">
               <div class="box">
                 <img src="/static/images/products/product-4.png" alt="" />
                 <p class="product-name">Rèm cầu vồng</p>
@@ -240,7 +245,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-4 product">
+            <div class="col-6 col-sm-6 col-xl-4 product">
               <div class="box">
                 <img src="/static/images/products/product-5.png" alt="" />
                 <p class="product-name">Rèm cầu vồng</p>
@@ -255,7 +260,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-4 product">
+            <div class="col-6 col-sm-6 col-xl-4 product">
               <div class="box">
                 <img src="/static/images/products/product-6.png" alt="" />
                 <p class="product-name">Rèm cầu vồng</p>
@@ -277,46 +282,48 @@
     <section class="steps-home">
       <p class="title-type-1">Các bước làm đại lý</p>
       <div class="container-fluid d-flex steps-box">
-        <div class="step flex-1">
-          <div class="box flex-1">
-            <img src="/static//images/home/step-1.svg" alt="" />
-            <p class="step-name">Bước 1</p>
-            <p>Tìm hiểu công ty</p>
+        <div>
+          <div class="step flex-1">
+            <div class="box flex-1">
+              <img src="/static/images/home/step-1.svg" alt="" />
+              <p class="step-name">Bước 1</p>
+              <p>Tìm hiểu công ty</p>
+            </div>
           </div>
-        </div>
-        <div class="step flex-1">
-          <div class="box flex-1">
-            <img src="/static//images/home/step-2.svg" alt="" />
-            <p class="step-name">Bước 2</p>
-            <p>Nộp hồ sơ</p>
+          <div class="step flex-1">
+            <div class="box flex-1">
+              <img src="/static/images/home/step-2.svg" alt="" />
+              <p class="step-name">Bước 2</p>
+              <p>Nộp hồ sơ</p>
+            </div>
           </div>
-        </div>
-        <div class="step flex-1">
-          <div class="box flex-1">
-            <img src="/static//images/home/step-3.svg" alt="" />
-            <p class="step-name">Bước 3</p>
-            <p>Đợi xét duyệt</p>
+          <div class="step flex-1">
+            <div class="box flex-1">
+              <img src="/static/images/home/step-3.svg" alt="" />
+              <p class="step-name">Bước 3</p>
+              <p>Đợi xét duyệt</p>
+            </div>
           </div>
-        </div>
-        <div class="step flex-1">
-          <div class="box flex-1">
-            <img src="/static//images/home/step-4.svg" alt="" />
-            <p class="step-name">Bước 4</p>
-            <p>Trở thành đại lý</p>
+          <div class="step flex-1">
+            <div class="box flex-1">
+              <img src="/static/images/home/step-4.svg" alt="" />
+              <p class="step-name">Bước 4</p>
+              <p>Trở thành đại lý</p>
+            </div>
           </div>
-        </div>
-        <div class="step flex-1">
-          <div class="box flex-1">
-            <img src="/static//images/home/step-5.svg" alt="" />
-            <p class="step-name">Bước 5</p>
-            <p>Nhập hàng</p>
+          <div class="step flex-1">
+            <div class="box flex-1">
+              <img src="/static/images/home/step-5.svg" alt="" />
+              <p class="step-name">Bước 5</p>
+              <p>Nhập hàng</p>
+            </div>
           </div>
-        </div>
-        <div class="step flex-1">
-          <div class="box flex-1">
-            <img src="/static//images/home/step-6.svg" alt="" />
-            <p class="step-name">Bước 6</p>
-            <p>Bắt đầu kinh doanh</p>
+          <div class="step flex-1">
+            <div class="box flex-1">
+              <img src="/static/images/home/step-6.svg" alt="" />
+              <p class="step-name">Bước 6</p>
+              <p>Bắt đầu kinh doanh</p>
+            </div>
           </div>
         </div>
       </div>
@@ -345,7 +352,7 @@
       <p class="title-type-1">tin tức</p>
       <div class="articles container-fluid">
         <div class="row">
-          <div class="col-4 article">
+          <div class="col-6 col-sm-6 col-xl-4 article">
             <div class="image-box">
               <img src="/static/images/articles/article-1.png" alt="" />
             </div>
@@ -361,7 +368,7 @@
               </div>
             </div>
           </div>
-          <div class="col-4 article">
+          <div class="col-6 col-sm-6 col-xl-4 article">
             <div class="image-box">
               <img src="/static/images/articles/article-2.png" alt="" />
             </div>
@@ -377,7 +384,7 @@
               </div>
             </div>
           </div>
-          <div class="col-4 article">
+          <div class="col-6 col-sm-6 col-xl-4 article">
             <div class="image-box">
               <img src="/static/images/articles/article-3.png" alt="" />
             </div>
@@ -401,7 +408,7 @@
       <div class="container-box">
         <div class="container-fluid">
           <div class="row">
-            <div class="col-3 logo-box">
+            <div class="col-24 col-sm-4 col-xl-3 logo-box">
               <img
                 src="/static/images/home/logo-footer.svg"
                 alt=""
@@ -417,7 +424,8 @@
                 class="noti"
               />
             </div>
-            <div class="col-2 menu-box">
+            <div class="col-24 col-sm-4 col-xl-2 menu-box">
+              <p>Chuyên mục</p>
               <ul>
                 <li><a href="./index.html">Trang chủ</a></li>
                 <li><a href="./Introduce.html">Giới thiệu</a></li>
@@ -426,7 +434,7 @@
                 <li><a href="./Contact.html">Liên hệ</a></li>
               </ul>
             </div>
-            <div class="col-2 categories-box">
+            <div class="col-24 col-sm-4 col-xl-2 categories-box">
               <p>Danh mục rèm</p>
               <ul>
                 <li><a href="/">Rèm gỗ và rèm PVC</a></li>
@@ -436,7 +444,7 @@
                 <li><a href="/">Rèm Roman</a></li>
               </ul>
             </div>
-            <div class="col-2 menu-footer-1">
+            <div class="col-24 col-sm-4 col-xl-2 menu-footer-1">
               <p>Cấu tạo và ứng dụng</p>
               <ul>
                 <li><a href="/">Cấu tạo chi tiết</a></li>
@@ -446,7 +454,7 @@
                 <li><a href="/">Vệ sinh và bảo quản</a></li>
               </ul>
             </div>
-            <div class="col-3 menu-footer-2">
+            <div class="col-24 col-sm-4 col-xl-3 menu-footer-2">
               <p>Thông tin chung</p>
               <ul>
                 <li><a href="/">Thông tin nhà phân phối</a></li>
